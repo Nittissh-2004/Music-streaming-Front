@@ -5,6 +5,8 @@ import Search from "./pages/Search";
 import Playlists from "./pages/Playlists";
 import Profile from "./pages/Profile";
 import MusicPlayer from "./components/MusicPlayer";
+import SongList from './SongList';
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         <MusicPlayer />
       </div>
     </Router>
+    
   );
 }
 
